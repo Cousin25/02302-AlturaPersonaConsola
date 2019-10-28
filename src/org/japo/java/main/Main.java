@@ -36,17 +36,12 @@ public class Main {
 
         try {
             System.out.print("Introduzca su altura en metros: ");
-            altura= SCN.nextDouble();
-            
+            altura = SCN.nextDouble();
             System.out.printf("Mi altura es....: %.2f metros%n", altura);
-            
-
-        } catch (Exception e) { 
+        } catch (Exception e) {
             System.out.println("Error de entrada!!!!!");
-            
         } finally {
             SCN.nextLine();
         }
-        }
-
     }
+}
